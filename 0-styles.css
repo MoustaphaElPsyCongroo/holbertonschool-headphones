@@ -293,7 +293,14 @@ a:active {
 
 @media screen and (min-width: 481px) {
   .hero-background {
-    object-position: center;
+    object-position: top center;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .hero-background {
+    object-fit: fill;
   }
 }
 
